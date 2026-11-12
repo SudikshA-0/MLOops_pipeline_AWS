@@ -6,7 +6,7 @@ The service uses the checked-in model at `models/iris_random_forest_model.joblib
 
 ## Deploy from the AWS console
 
-Use the **Asia Pacific (Mumbai) `ap-south-1`** region for this walkthrough. You need an AWS identity allowed to create CloudFormation stacks, IAM roles, CodePipeline, CodeBuild, ECR, ECS, and a GitHub connection. Do not use your AWS root user for routine work.
+Use the **Asia Pacific (Mumbai) `ap-south-1`** region for this walkthrough. You need an AWS identity allowed to create CloudFormation stacks, IAM roles, CodePipeline, CodeBuild, ECR, ECS, and a GitHub connection. Do not use your AWS root user for routine work. The ECS Express service uses the account's default VPC and public subnets; if you deleted the default VPC, restore it or configure a VPC before deploying.
 
 ### 1. Create the AWS pipeline stack
 
