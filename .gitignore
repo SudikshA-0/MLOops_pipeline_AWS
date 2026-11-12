@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+kiet-cse/
+
+# Python cache
+__pycache__
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Local MLflow database and working notes (kept out of the public repository)
+mlflow.db
+notes.txt
