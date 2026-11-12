@@ -7,7 +7,7 @@ Parameters:
     Default: SudikshA-0
   GitHubRepository:
     Type: String
-    Default: MLOps_pipeline_AWS
+    Default: MLOops_pipeline_AWS
   GitHubBranch:
     Type: String
     Default: main
